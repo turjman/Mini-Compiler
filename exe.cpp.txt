@@ -1,0 +1,23 @@
+int add(int a, int b){
+	return a + b;
+}
+
+int multiply(int a, int b){
+	return a * b;
+}
+
+int subtract(int a, int b){
+	return a - b;
+}
+
+int multiExp(int a, int b){
+	return a + a ^ b * a / b - b;
+}
+
+int main(){
+	int x = add(3, 4); // 7
+	int y = multiply(x, 2); // 14
+	int z = subtract(y, 4); // 10
+	int res = multiExp(6, 9); // 6718461
+	return 0;
+}
